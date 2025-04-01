@@ -9,7 +9,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <Title teamNumber="41" teamHobbies="Watching movies and Playing video games" />
-            <Intro name1="Phuong Mai Do" name2="Caleb Corpus" />
+            <Intro name1="Phuong Mai Do" name2="Caleb Corpuz" />
             <Hobby1 />
             <Hobby2 />
         </div>

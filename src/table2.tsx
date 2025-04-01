@@ -1,27 +1,38 @@
-import React from "react";
-
-const Table2: React.FC = () => {
+function Table2(){
     return (
         <table className="hobby-table">
+            <caption>IGN Game Rating</caption>
             <thead>
-            <tr>
-                <th>Activity</th>
-                <th>Time Spent</th>
-            </tr>
+                <tr>
+                    <th>Game</th>
+                    <th>Rating</th>
+                    <th>Do I agree?</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>Classical Music</td>
-                <td>3 hours</td>
-            </tr>
-            <tr>
-                <td>Orchestra Performances</td>
-                <td>5 hours</td>
-            </tr>
-            <tr>
-                <td>Cello Technique Practice</td>
-                <td>4 hours</td>
-            </tr>
+                <tr>
+                    <td>Team Fortress 2</td>
+                    <td>8.9</td>
+                    <td>Y</td>
+                </tr>
+
+                <tr>
+                    <td>Ghost Trick: Phantom Detective</td>
+                    <td>8.5</td>
+                    <td>Y</td>
+                </tr>
+
+                <tr>
+                    <td>Pokemon Legends: Arceus</td>
+                    <td>7.0</td>
+                    <td>N</td>
+                </tr>
+
+                <tr>
+                    <td>Mouthwashing</td>
+                    <td>9</td>
+                    <td>Y</td>
+                </tr>
             </tbody>
         </table>
     );

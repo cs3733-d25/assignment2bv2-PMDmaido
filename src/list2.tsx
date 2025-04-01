@@ -1,12 +1,13 @@
-import React from "react";
-//import "./list.css";
+import "./list.css";
 
-const List2: React.FC = () => {
+function List2() {
     return (
         <ul className="hobby-list">
-            <li>Classical Music</li>
-            <li>Orchestra Performances</li>
-            <li>Cello Technique Practice</li>
+            <li className="highlight">Baldur's Gate 3</li>
+            <li>Pokemon</li>
+            <li>Team Fortress 2</li>
+            <li>Ghost Trick: Phantom Detective</li>
+            <li>Deltarune</li>
         </ul>
     );
 };
