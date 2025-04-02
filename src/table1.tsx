@@ -3,6 +3,7 @@ import React from "react";
 const Table1: React.FC = () => {
     return (
         <table className="collapse">
+            <caption>Some of My Favorite Movies</caption>
             <thead>
             <tr>
                 <th>Title</th>

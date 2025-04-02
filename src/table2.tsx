@@ -1,6 +1,6 @@
 function Table2(){
     return (
-        <table className="hobby-table">
+        <table className="collapse">
             <caption>IGN Game Rating</caption>
             <thead>
                 <tr>

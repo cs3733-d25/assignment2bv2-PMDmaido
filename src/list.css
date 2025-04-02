@@ -1,7 +1,25 @@
-
 /* Highlight the first list item */
 .highlight {
-    /*color: #e91e63;*/
     color: red;
     font-weight: bold;
+}
+
+.hobby-list {
+    font-size: 18px;
+    list-style-type: none;        /* Remove default list bullets */
+}
+
+.hobby-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* Subtle separator between items */
+}
+
+/* Hover effect for list items */
+.hobby-list li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.hobby-list li:last-child {
+    border-bottom: none;          /* Remove border for the last item */
 }

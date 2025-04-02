@@ -8,7 +8,7 @@ interface TitleProps {
 const Title: React.FC<TitleProps> = ({ teamNumber, teamHobbies }) => {
     return (
         <header className="title">
-            <h1>{teamNumber} Team 47: {teamHobbies}</h1>
+            <h1>Team {teamNumber}: {teamHobbies}</h1>
         </header>
     );
 };
